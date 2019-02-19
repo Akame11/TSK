@@ -1,5 +1,7 @@
 package tsk2019cv1.sd;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * Hello world!
  *
@@ -11,6 +13,7 @@ public class App
         System.out.println( "Hello World!" );
     }
     
+
     public boolean isTriangle(int a, int b, int c) {
     	if(a<=0 || b<= 0 || c<=0) {
     		return false;
